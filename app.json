@@ -28,6 +28,18 @@
     "plugins": [
       "expo-router",
       [
+        "expo-camera",
+        {
+          "cameraPermission": "O GeoVault precisa da câmera para tirar fotos dos seus segredos."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "O GeoVault precisa da sua localização para marcar onde o segredo foi criado."
+        }
+      ],
+      [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
